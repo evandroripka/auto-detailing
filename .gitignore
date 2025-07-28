@@ -1,0 +1,15 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# XAMPP / Local environment
+*.log
+
+# Ignore system folders
+node_modules/
+vendor/
+.env
