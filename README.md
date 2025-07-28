@@ -19,6 +19,7 @@ app/
 public/
 ├── index.php
 ├── assets/
+.
 
 
 
