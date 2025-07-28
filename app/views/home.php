@@ -30,7 +30,7 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <div class="swiper-inner" data-bgimage="url(images/original/5.jpg)">
+                                <div class="swiper-inner" data-bgimage="url(<?= $base ?>/assets/images/original/5.jpg)">
                                     <div class="gradient-edge-top h-20 op-5"></div>
                                     <div class="gradient-edge-bottom h-50"></div>
                                     <div class="sw-overlay op-6"></div>
@@ -39,7 +39,7 @@
 
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <div class="swiper-inner" data-bgimage="url(images/original/4.jpg)">
+                                <div class="swiper-inner" data-bgimage="url(<?= $base ?>/assets/images/original/4.jpg)">
                                     <div class="gradient-edge-top h-20 op-5"></div>
                                     <div class="gradient-edge-bottom h-50"></div>
                                     <div class="sw-overlay op-6"></div>
@@ -64,7 +64,7 @@
                                     <div class="row g-4">
                                         <div class="col-lg-12">
                                             <div class=" rounded-1 overflow-hidden wow zoomIn">
-                                                <img src="images/original/Basic-Cleaning-and-Detailing.jpg"
+                                                <img src="<?= $base ?>/assets/images/original/Basic-Cleaning-and-Detailing.jpg"
                                                     class="w-100 wow scaleIn" alt="">
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@
 
                                         <div class="col-lg-12">
                                             <div class=" rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
-                                                <img src="images/original/washing.jpg" class="w-100 wow scaleIn" alt=""
+                                                <img src="<?= $base ?>/assets/images/original/washing.jpg" class="w-100 wow scaleIn" alt=""
                                                     data-wow-delay=".3s">
                                             </div>
                                         </div>
@@ -148,13 +148,13 @@
             </section>
 
             <section class="pb-80 jarallax" aria-label="section">
-                <img src="images/background/3.webp" class="jarallax-img" alt="">
+                <img src="<?= $base ?>/assets/images/background/3.webp" class="jarallax-img" alt="">
                 <div class="gradient-edge-top"></div>
                 <div class="sw-overlay"></div>
                 <div class="container relative z-2">
                     <div class="row g-4 justify-content-center">
                         <div class="col-lg-10">
-                            <img src="images/misc/c1.webp" class="w-100" alt="">
+                            <img src="<?= $base ?>/assets/images/misc/c1.webp" class="w-100" alt="">
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                                 data-wow-delay=".0s">
-                                <img src="images/services/1.webp" class="hover-scale-1-1 w-100" alt="">
+                                <img src="<?= $base ?>/assets/images/services/1.webp" class="hover-scale-1-1 w-100" alt="">
                                 <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                     <div class="mb-3">Quick and effective exterior wash with full interior vacuuming.
                                         Perfect for regular maintenance and a refreshed look in minutes.
@@ -203,7 +203,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                                 data-wow-delay=".2s">
-                                <img src="images/services/2.webp" class="hover-scale-1-1 w-100" alt="">
+                                <img src="<?= $base ?>/assets/images/services/2.webp" class="hover-scale-1-1 w-100" alt="">
                                 <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                     <div class="mb-3">Thorough cleaning of seats, carpets, and panels. Includes shampoo
                                         and stain removal, leaving your interior fresh and sanitized.
@@ -225,7 +225,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                                 data-wow-delay=".4s">
-                                <img src="images/services/3.webp" class="hover-scale-1-1 w-100" alt="">
+                                <img src="<?= $base ?>/assets/images/services/3.webp" class="hover-scale-1-1 w-100" alt="">
                                 <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                     <div class="mb-3">Complete exterior care with hand polishing and spray wax for
                                         lasting shine and protection against the elements.
@@ -247,7 +247,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                                 data-wow-delay=".6s">
-                                <img src="images/services/4.webp" class="hover-scale-1-1 w-100" alt="">
+                                <img src="<?= $base ?>/assets/images/services/4.webp" class="hover-scale-1-1 w-100" alt="">
                                 <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                     <div class="mb-3">Removes contaminants, corrects paint imperfections, and restores
                                         original gloss using clay bar, iron remover, and machine polishing.
@@ -269,7 +269,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                                 data-wow-delay=".8s">
-                                <img src="images/services/5.webp" class="hover-scale-1-1 w-100" alt="">
+                                <img src="<?= $base ?>/assets/images/services/5.webp" class="hover-scale-1-1 w-100" alt="">
                                 <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                     <div class="mb-3">Advanced coating that bonds with your paint, offering long-term
                                         shine and protection from UV, dirt, and scratches.
@@ -291,7 +291,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="hover rounded-1 overflow-hidden relative text-light text-center wow fadeInRight"
                                 data-wow-delay="1.0s">
-                                <img src="images/services/6.webp" class="hover-scale-1-1 w-100" alt="">
+                                <img src="<?= $base ?>/assets/images/services/6.webp" class="hover-scale-1-1 w-100" alt="">
                                 <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                                     <div class="mb-3">Degreases and revitalizes your engine bay for a spotless,
                                         showroom-worthy finish—ideal for maintenance or resale.
@@ -327,8 +327,8 @@
 
                         <div class="col-lg-6">
                             <div class="twentytwenty-container rounded-1">
-                                <img src="images/before-after/1b.webp" alt="" class="img-responsive">
-                                <img src="images/before-after/1a.webp" alt="" class="img-responsive">
+                                <img src="<?= $base ?>/assets/images/before-after/1b.webp" alt="" class="img-responsive">
+                                <img src="<?= $base ?>/assets/images/before-after/1a.webp" alt="" class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -349,13 +349,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/1.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/1.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">John Smith</div>
                                                         <small>7 December 2024</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars">
@@ -376,13 +376,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/2.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/2.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Jessica Lee</div>
                                                         <small>12 January 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -403,13 +403,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/3.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/3.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Michael Brown</div>
                                                         <small>2 February 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -430,13 +430,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/4.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/4.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Rachel Adams</div>
                                                         <small>15 March 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -457,13 +457,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/5.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/5.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Liam Carter</div>
                                                         <small>8 April 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -484,13 +484,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/6.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/6.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Emily Nguyen</div>
                                                         <small>20 May 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -512,13 +512,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/7.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/7.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Noah Williams</div>
                                                         <small>5 June 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -538,13 +538,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/8.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/8.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Ava Johnson</div>
                                                         <small>14 June 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -564,13 +564,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/9.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/9.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Lucas Evans</div>
                                                         <small>21 June 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -590,13 +590,13 @@
                                             <div class="d-flex justify-content-between mb-3">
                                                 <div class="d-flex align-items-center">
                                                     <img class="w-40px circle me-3" alt=""
-                                                        src="images/testimonial/10.webp">
+                                                        src="<?= $base ?>/assets/images/testimonial/10.webp">
                                                     <div class="mt-2">
                                                         <div class="text-white fw-bold lh-1">Sophia Martinez</div>
                                                         <small>30 June 2025</small>
                                                     </div>
                                                 </div>
-                                                <img src="images/misc/google-icon.svg" class="w-30px" alt="">
+                                                <img src="<?= $base ?>/assets/images/misc/google-icon.svg" class="w-30px" alt="">
                                             </div>
                                             <div class="de-rating-ext mb-2">
                                                 <span class="d-stars"><i class="fa fa-star"></i><i
@@ -692,7 +692,7 @@
             <section class="relative jarallax mh-500" aria-label="section">
                 <div class="gradient-edge-top"></div>
                 <div class="gradient-edge-bottom"></div>
-                <img src="images/background/3.webp" class="jarallax-img" alt="">
+                <img src="<?= $base ?>/assets/images/background/3.webp" class="jarallax-img" alt="">
             </section>
 
             <section>
@@ -770,7 +770,7 @@
                             <div class="row g-0">
                                 <div class="col-3">
                                     <a href="#" class="d-block hover relative overflow-hidden text-light">
-                                        <img src="images/gallery-square/1.webp" class="w-100 hover-scale-1-1" alt="">
+                                        <img src="<?= $base ?>/assets/images/gallery-square/1.webp" class="w-100 hover-scale-1-1" alt="">
                                         <div class="abs abs-centered fs-24 text-white hover-op-0">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
@@ -778,7 +778,7 @@
                                 </div>
                                 <div class="col-3">
                                     <a href="#" class="d-block hover relative overflow-hidden text-light">
-                                        <img src="images/gallery-square/2.webp" class="w-100 hover-scale-1-1" alt="">
+                                        <img src="<?= $base ?>/assets/images/gallery-square/2.webp" class="w-100 hover-scale-1-1" alt="">
                                         <div class="abs abs-centered fs-24 text-white hover-op-0">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
@@ -786,7 +786,7 @@
                                 </div>
                                 <div class="col-3">
                                     <a href="#" class="d-block hover relative overflow-hidden text-light">
-                                        <img src="images/gallery-square/3.webp" class="w-100 hover-scale-1-1" alt="">
+                                        <img src="<?= $base ?>/assets/images/gallery-square/3.webp" class="w-100 hover-scale-1-1" alt="">
                                         <div class="abs abs-centered fs-24 text-white hover-op-0">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
@@ -794,7 +794,7 @@
                                 </div>
                                 <div class="col-3">
                                     <a href="#" class="d-block hover relative overflow-hidden text-light">
-                                        <img src="images/gallery-square/4.webp" class="w-100 hover-scale-1-1" alt="">
+                                        <img src="<?= $base ?>/assets/images/gallery-square/4.webp" class="w-100 hover-scale-1-1" alt="">
                                         <div class="abs abs-centered fs-24 text-white hover-op-0">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
@@ -806,7 +806,7 @@
                             <div class="row g-0">
                                 <div class="col-3">
                                     <a href="#" class="d-block hover relative overflow-hidden text-light">
-                                        <img src="images/gallery-square/5.webp" class="w-100 hover-scale-1-1" alt="">
+                                        <img src="<?= $base ?>/assets/images/gallery-square/5.webp" class="w-100 hover-scale-1-1" alt="">
                                         <div class="abs abs-centered fs-24 text-white hover-op-0">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
@@ -814,7 +814,7 @@
                                 </div>
                                 <div class="col-3">
                                     <a href="#" class="d-block hover relative overflow-hidden text-light">
-                                        <img src="images/gallery-square/6.webp" class="w-100 hover-scale-1-1" alt="">
+                                        <img src="<?= $base ?>/assets/images/gallery-square/6.webp" class="w-100 hover-scale-1-1" alt="">
                                         <div class="abs abs-centered fs-24 text-white hover-op-0">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
@@ -822,7 +822,7 @@
                                 </div>
                                 <div class="col-3">
                                     <a href="#" class="d-block hover relative overflow-hidden text-light">
-                                        <img src="images/gallery-square/7.webp" class="w-100 hover-scale-1-1" alt="">
+                                        <img src="<?= $base ?>/assets/images/gallery-square/7.webp" class="w-100 hover-scale-1-1" alt="">
                                         <div class="abs abs-centered fs-24 text-white hover-op-0">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
@@ -830,7 +830,7 @@
                                 </div>
                                 <div class="col-3">
                                     <a href="#" class="d-block hover relative overflow-hidden text-light">
-                                        <img src="images/gallery-square/8.webp" class="w-100 hover-scale-1-1" alt="">
+                                        <img src="<?= $base ?>/assets/images/gallery-square/8.webp" class="w-100 hover-scale-1-1" alt="">
                                         <div class="abs abs-centered fs-24 text-white hover-op-0">
                                             <i class="fa-brands fa-instagram"></i>
                                         </div>
