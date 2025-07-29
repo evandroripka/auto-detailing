@@ -1,3 +1,4 @@
+<?php global $base; ?>
 <section class="text-light no-top no-bottom relative overflow-hidden" id="home-slider">
                 <div class="mh-700">
                     <div class="abs w-100 bottom-0 z-2 pb-4">

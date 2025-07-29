@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <?php
-    // Detecta a base do projeto de forma segura, mesmo em subpastas
-    $base = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
-    $base = $base === '/' ? '' : $base;
-    ?>
     <title>AutoDetail - Car Detailing, Shop & Repair HTML Template</title>
     <link rel="icon" href="/assets/images/icon.webp" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
@@ -24,11 +18,10 @@
     <!-- Color scheme -->
     <link id="colors" href="<?= $base ?>/assets/css/colors/scheme-1.css" rel="stylesheet" type="text/css">
     <link href="<?= $base ?>/assets/css/custom-swiper-1.css" rel="stylesheet" type="text/css">
-
-
 </head>
 
 <body class="dark-scheme">
+
     <div id="wrapper">
         <a href="#" id="back-to-top"></a>
 
@@ -44,15 +37,15 @@
                         <div class="col-lg-12">
                             <div class="d-flex justify-content-between xs-hide">
                                 <div class="d-flex">
-                                    <div class="topbar-widget"><a href="#"><img src="images/svg-white/bell.svg" class=""
-                                                alt="">GetGet 50% Discount for AutoDetail New Member</a></div>
+                                    <!-- <div class="topbar-widget"><a href="#"><img src="images/svg-white/bell.svg" class=""
+                                                alt="">GetGet 50% Discount for AutoDetail New Member</a></div> -->
 
                                 </div>
                                 <div class="d-flex">
                                     <div class="topbar-widget me-5"><a href="#"><img src="images/svg-white/phone.svg"
-                                                class="" alt="">Call us: +1 800 987 654</a></div>
+                                                class="" alt="">Call us: +1 (929) 725-8078</a></div>
                                     <div class="topbar-widget"><a href="#"><img src="images/svg-white/envelope.svg"
-                                                class="" alt="">Message us: support@autodetail.com</a></div>
+                                                class="" alt="">Message us: contact@finestdetailingnyc.com</a></div>
                                 </div>
                             </div>
                         </div>
@@ -68,9 +61,9 @@
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo">
-                                    <a href="index.html">
-                                        <img class="logo-main" src="images/logo-brands/logo.png" alt="">
-                                        <img class="logo-mobile" src="images/logo-brands/logo.png" alt="">
+                                    <a href="/">
+                                        <img class="logo-main" src="<?= $base ?>/assets/images/logo-brands/logo.png" alt="">
+                                        <img class="logo-mobile" src="<?= $base ?>/assets/images/logo-brands/logo.png" alt="">
                                     </a>
                                 </div>
                                 <!-- logo end -->
@@ -108,15 +101,12 @@
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
-                                    <a href="appointment.html" class="btn-main fx-slide hover-white"><span>Make
+                                    <a href="<?= $base ?>/appointment" class="btn-main fx-slide hover-white"><span>Make
                                             Appointment</span></a>
                                     <span id="menu-btn"></span>
                                 </div>
 
-                                <div id="btn-extra">
-                                    <span></span>
-                                    <span></span>
-                                </div>
+
                             </div>
                         </div>
                     </div>

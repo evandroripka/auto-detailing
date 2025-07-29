@@ -13571,3 +13571,37 @@ img {
     width: auto;
   }
 }
+/* Animação suave de troca de cor */
+@keyframes colorCycle {
+    0%   { color: #00bcd4; }   /* cyan */
+    50%  { color: #07ff3f; }   /* green */
+    100% { color: #00bcd4; }   /* volta ao início */
+}
+
+.dev-link {
+    font-weight: bold;
+    text-decoration: none;
+    animation: colorCycle 6s infinite;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.dev-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.3s ease;
+}
+
+.dev-link:hover::after {
+    width: 100%;
+}
+
+.dev-link:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
