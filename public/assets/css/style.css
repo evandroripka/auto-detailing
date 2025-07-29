@@ -13605,3 +13605,44 @@ img {
     transform: scale(1.05);
     filter: brightness(1.2);
 }
+.sidebarbtn {
+    position: fixed;
+    right: 0;
+    top: 50vh;
+    z-index: 999;
+    text-align: -webkit-right;
+}
+.sidebarbtn .action-icon:hover {
+    width: 100px;
+    border-radius: 15px 0px 0px 15px;
+   
+    border: solid 1px transparent;
+}
+.sidebarbtn .action-icon {
+    font-size: 35px;
+    height: 55px;
+    width: 55px;
+    border: solid 1px #ffffff2e;
+    margin-bottom: 2px;
+    text-align: center;
+    line-height: 55px;
+    transition: .5s;
+    cursor: pointer;
+}
+.colred-msg {
+    background-color: #125bb1;
+}
+.colred-call {
+    background-color: #12b150;
+}
+.sidebarbtn .action-icon a {
+    transition: .5s;
+    padding-right: 0px;
+}
+.sidebarbtn .action-icon:hover a {
+    width: 100%;
+    display: block;
+    padding-right: 35px;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px #ffffff;
+}

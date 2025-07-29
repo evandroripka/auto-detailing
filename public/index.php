@@ -23,6 +23,8 @@ $controllerFile = $controllersPath . $controllerName . '.php';
 
 // Include header partial
 require_once $partialsPath . 'header.php';
+require_once $partialsPath . 'sidebarbtn.php';
+
 
 // Check if controller exists and load
 if (file_exists($controllerFile)) {
